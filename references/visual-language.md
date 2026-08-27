@@ -1,52 +1,58 @@
 # Visual Language
 
-这套风格的核心不是古希腊题材，而是把真实画面提炼成**史诗化的视觉寓言**。题材可以是日常生活、人物、街景、电影截图、自然景观或原创角色。
+## Core identity
 
-## 1. Shape hierarchy
+This is **spatial reconstruction**, not style filtering. The source remains recognizable through selected anchors, while its spatial order is reinvented as an original visual allegory.
 
-- 一个压倒性的大形体通常占画面约 45%—75%，它可以是建筑、脸、身体、阴影、道路、器物、自然现象或负空间。
-- 微型人物或次要物体负责标示尺度与叙事，通常不需要清晰面孔。
-- 保留约 20%—55% 的安静色域或负空间。不要把所有空白填满。
-- 设置一条主要方向轴：道路、箭、绳索、裂缝、光束、水流、发丝、视线或队列。
-- 只在关键转折处使用少量精细装饰线、旧金边缘、暗红裂纹或局部纹样。
+The first reading should be one decisive image. The second reading should reveal a contradiction: two viewpoints coexist, a body becomes space, a void becomes an object, or scale exposes the emotional relation.
 
-以上比例是判断尺度的参考，不是每张图都要机械满足的模板。
+## Stable grammar
 
-## 2. Perspective and composition
+### Impossible perspective
 
-- 优先考虑极端俯视、极低机位、强制透视、局部裁切、不可能透视和比例错位。
-- 构图可以不对称。主体居中只在“仪式、审判、循环、对峙”等主题确有必要时使用。
-- 让物体兼具第二含义：道路也是长剑，宴席也是靶心，歌声也是天空，身体也是峡谷，头发也是时间轨道。
-- 与其描绘动作高潮，不如选择高潮前一秒或真相揭晓的一刻，让静止形成张力。
+Allow overhead, frontal, and side views to coexist when the contradiction carries meaning. The viewpoints need not obey physical continuity, but the overall composition must remain deliberate and legible.
 
-## 3. Palette families
+Impossible perspective is a tool, not a mandatory checkbox. Do not add it when the source's gesture already creates a stronger organic transformation.
 
-每次只选择一个主色系，通常二至四个主色加一处强调色：
+### Extreme scale
 
-- **午夜仪式**：深海军蓝／近黑＋象牙白＋旧金＋极少暗红。
-- **骨白虚空**：暖骨白＋蓝黑／炭黑＋一处血红或锈红。
-- **黑橙压迫**：烧橙／陶土橙＋近黑＋极少米白或旧金。
-- **钴蓝异象**：深钴蓝＋黑＋旧金线＋一处珊瑚红。
+Use scale to establish power, distance, isolation, discovery, or collective pressure. A tiny person, vehicle, boat, window, book, or light may act as the scale cue. The cue must belong to the source world.
 
-从源图提取并压缩色彩，而不是不顾原图强行套用固定配色。若源图的标志性色彩对辨识很重要，保留它作为强调色。
+Do not enlarge a random body part or duplicate the subject simply to create spectacle.
 
-## 4. Figure treatment
+### Active negative space
 
-- 人物可转为剪影、壁画式平面造型、简化雕塑体或带有限线描的色块形象。
-- 关键姿势和相互关系必须准确；四肢不粘连，器物与手部关系清楚。
-- 肖像中的五官可以简化，但不能把真实人物变成毫无关联的陌生人。
-- 同一画面中的人物写实程度要统一。避免前景真人照片感、背景平面插画感的拼贴冲突。
+Light or dark emptiness must behave as a shape: rupture, current, distance, silence, enclosure, or destination. It is not leftover background.
 
-## 5. Surface and line
+### Graphic reduction
 
-- 使用哑光矿物颜料、细腻纸张颗粒、古代壁画磨损、丝网印刷或木刻版画般的轻微不均匀。
-- 边缘整体清晰，局部可以有干刷、蚀刻、旧金线或自然毛边。
-- 纹理只能增加手工感，不能盖住形体和叙事。避免厚重油画堆料、塑料 3D 光泽、游戏渲染高光和统一噪点滤镜。
+Compress the source into a few large masses and a small number of supporting details. Preserve the most expressive relationship; remove literal environment detail that does not support it.
 
-## 6. What this style is not
+Graphic reduction does not mean turning organic people into hard geometry. Human pose, weight, gaze, and bodily rhythm usually matter more than perfectly straight edges.
 
-- 不是普通的照片滤镜或调色预设。
-- 不是写实电影剧照、奇幻游戏概念图或宏大 CG 场景。
-- 不是固定的“古希腊元素包”。
-- 不是把九张参考图的马、弓箭、盔甲、怪物、长船、漩涡、女巫等元素搬到新图中。
-- 不是复杂动作、爆炸、火海、血腥或密集小细节制造的廉价史诗感。
+When a body or garment expands into surrounding space, keep an asymmetric organic transition and enough shoulder, elbow, hand, hem, or weight-bearing contour to read the person. Do not fuse two foreground figures into parallel hard panels that turn the center into a generic rectangular aperture.
+
+### Controlled material
+
+Use matte mineral pigment, subtle paper tooth, dry brush, flat silkscreen ink, or restrained print grain. Vary texture locally. Keep major silhouettes clean.
+
+Do not cover the whole image with identical noise, scratches, yellowing, or fake aging.
+
+## Color system
+
+- Use two to four functional colors: ground, dominant mass, supporting field, and optional semantic accent.
+- Derive the palette from the source or story when it helps recognition.
+- Favor ink-dark, mineral, muted, cool, or earth colors over glossy digital saturation.
+- Keep backgrounds clean. Never default to muddy beige, sepia, or warm yellow merely to imitate old paper.
+- Reserve the brightest or warmest accent for a meaningful destination, wound, signal, lamp, eye, crest, or narrative switch.
+
+## Adaptive transformation strength
+
+- **Single person:** preserve pose and identity more strongly; let clothing, shadow, gesture, hair, or surrounding void grow into space.
+- **Group:** preserve who stands, sits, faces, follows, or opposes whom; simplify individual faces before losing the relationship.
+- **Landscape/architecture:** preserve landmark relationships but permit aggressive changes to viewpoint, scale, horizon, and path.
+- **Object/close-up:** preserve the silhouette and interaction; transform the object's functional logic into terrain, structure, or void.
+
+## Anti-template rule
+
+Never default to a portal, black road, giant rectangle, rectangular opening, folded wall, S-shaped river, circular disc, giant head, long runway, or tiny duplicate figure because a successful reference used it. Reuse the abstract relationship only when the new source genuinely supports it.

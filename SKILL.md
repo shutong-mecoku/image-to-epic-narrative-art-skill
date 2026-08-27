@@ -1,65 +1,85 @@
 ---
 name: image-to-epic-narrative-art
-description: Transform one user-provided image into a symbolic epic narrative illustration through extreme scale, large flat color fields, negative space, simplified figures, and restrained printmaking texture. Use when the user asks to把照片、电影截图或现有画面重构为史诗感、寓言感、实验构图、神话绘本感或强叙事绘画，并可选择提供或生成图片背后的故事。Requires a source image. Do not use for text-only image generation, ordinary retouching, or direct imitation of a named artist, film, or existing artwork.
+description: Transform a user-supplied photograph or film frame into an original spatial-allegory illustration using impossible perspective, extreme scale, active negative space, graphic simplification, restrained color, and mineral-print texture; optionally invent a short story that shapes and accompanies the image. Use when the user asks to convert an uploaded image into this established visual language. Do not use for ordinary retouching, simple color grading, or exact reconstruction of another artist's work.
 ---
 
 # Image to Epic Narrative Art
 
-把一张用户提供的图片重构成具有独立视觉概念的史诗寓言绘画。输入图片负责提供人物、物体、动作和场景事实；可选故事负责提供冲突、命运和情绪。最终作品不是套滤镜，也不是复刻参考图，而是以一个清晰的视觉隐喻重新组织原画面。
+Turn the source image into a newly composed visual allegory. Do not merely apply a filter, repaint the existing camera view, or force every subject into the same surreal device.
 
-## Required references
+## Required input and default behavior
 
-开始设计前读取：
+- Require one source image. Treat additional images as references only when the user labels them or their role is unambiguous.
+- Default to **pure visual transformation**. Enable **narrative enhancement** only when the user explicitly asks to invent, write, or attach a story/backstory, or explicitly says `叙事增强`. Requests for mood, symbolism, or a more narrative-looking image change the visual direction but do not by themselves authorize story text.
+- Choose the canvas from the preservation anchor and proposition. Preserve the source orientation and approximate ratio when a confrontation, procession, architecture, horizon, or group relationship depends on width or height. Use vertical 3:4 only when the user requests it or when vertical scale is itself part of the concept.
+- Do not block on minor aesthetic choices. Infer them from the source, the selected visual metaphor, and the restrained series language.
 
-- `references/visual-language.md`：固定视觉语言、色彩与材质边界。
-- `references/composition-engine.md`：从原图提炼隐喻并重构构图的方法。
-- `references/reference-index.md`：选择参考母样；每次只选一张主参考，必要时再选一张辅参考。
-- `references/quality-rubric.md`：出图后的硬性验收标准。
+## Read the relevant guidance
 
-仅在用户提供故事、要求补写故事或明确强调叙事时，再读取 `references/story-mode.md`。
-
-## Scope gate
-
-1. 必须有一张源图片。没有图片时，先请用户上传。
-2. 多张图片同时出现且主图不明确时，询问哪张是唯一主图；若用户明确要求分别处理，可逐张执行。
-3. 将源图片视为唯一事实依据。参考母样只提供构图、尺度、色块、线条和材质语言，不提供人物、时代、物件或情节事实。
-4. 不自动加入古希腊人物、盔甲、神殿、怪物、长船或其他示例中的具体内容。只有源图或用户故事出现时才能使用。
-5. 不把任务降级为普通调色、纹理叠加或“照片变插画”。必须发生有意义的叙事性构图重组。
-
-## Operating modes
-
-- **图像直转**：用户只提供图片。根据可见动作、空间与情绪推导一个克制的隐含叙事，不虚构具体姓名、历史事件或确定关系。
-- **故事引导**：用户同时提供图片背后的故事。源图决定“画什么”，故事决定“为何这样构图”。
-- **共同创作故事**：用户要求“帮我写故事再生成”。先在内部形成两至三个简短叙事命题，选择最具视觉潜力且不违背源图的一项，再生成画面；按用户要求附上故事文字。
+1. Always read [references/visual-language.md](references/visual-language.md).
+2. Classify the source and read [references/scene-routing.md](references/scene-routing.md) before selecting references.
+3. Read [references/narrative-mode.md](references/narrative-mode.md) only when narrative enhancement is active.
+4. Read [references/generation-spec.md](references/generation-spec.md) before calling an image generator.
+5. Read [references/quality-gates.md](references/quality-gates.md) before delivering the result.
 
 ## Workflow
 
-1. 用图像查看能力检查源图，记录主体、姿态、身份特征、视点、环境、方向线、光线和不可丢失的关系。
-2. 确认运行模式。用一句内部命题概括：**谁或什么，正被哪种力量推动／困住／改变；不可逆的一刻是什么。**
-3. 按 `references/composition-engine.md` 从源图已有元素中选择一个主隐喻。道路可成为命运，影子可成为威胁，发丝可成为时间，水纹可成为记忆；不要凭空堆叠多个象征。
-4. 从 `references/reference-index.md` 选择最匹配的一张主参考；只有当第二张承担不同职责时才加入辅参考。绝不机械混合全部示例。
-5. 写生成指令时明确分工：
-   - 源图片：唯一事实来源与辨识度约束；
-   - 用户故事：叙事真相与情绪方向；
-   - 参考母样：仅限视觉语法，不复制具体内容；
-   - 排除项：防止写实、游戏概念图、无关神话元素与构图照搬。
-6. 使用当前环境可用的图像编辑或图像生成能力，以源图为输入完成重构。需求清楚时直接生成一张精修预览，不先索要额外确认。
-7. 按 `references/quality-rubric.md` 查看输出。若出现硬性失败，针对最主要的问题修订一次并重新检查。
-8. 交付图片，并用一小段话说明“保留了什么、把什么转化成了主隐喻”。只有用户要求写故事时才附完整故事，不主动用长文解释画面。
+### 1. Find the preservation anchor
 
-## Non-negotiable invariants
+Identify what must survive the transformation:
 
-- 保留至少三类源图识别锚点：主体身份／轮廓、关键动作、核心物件、主要空间关系或独特色彩中的三类。人物肖像还需保留可辨识的发型、脸部结构或服装特征。
-- 一张图只设一个主隐喻和一个次级呼应。观者应先看到整体概念，再发现细节。
-- 让大形体、纯色域和负空间主导画面；细节集中在叙事转折点，不平均铺满。
-- 主色通常控制在二至四种，允许一处强调色。保持哑光、克制和统一，不用彩虹式丰富色彩。
-- 人物适度平面化、剪影化或壁画化；不要让一个写实人物突兀地贴在抽象画面中。
-- 允许极端尺度、不可能透视和身体／建筑景观化，但必须服务于故事，不能只为奇观。
-- 画面默认无标题、无文字、无标志、无水印。用户指定准确文字时才添加。
-- 默认保留源图比例；只有用户要求海报比例，或重构确实需要且不会伤害主体时，才改为竖向 3:4 或其他比例。
+- single person: identity when relevant, pose, gesture, gaze, and bodily rhythm;
+- group: primary relationship, action, hierarchy, and count when it matters;
+- landscape or architecture: landmark relationships, path, horizon, and recognizable structural rhythm;
+- object: silhouette, function, interaction, and one defining material cue.
 
-## Default result
+Preserve the anchor, not the original camera layout. Remove incidental UI, subtitles, ratings, and overlays from the newly composed artwork unless the user asks to retain exact text. Do not present the operation as erasing ownership marks from an otherwise unchanged image.
 
-- 一张完整成图，而不是情绪板、九宫格或多个草案。
-- 高级神话绘本、实验电影海报、古代壁画与版画质感的结合，但不直接模仿任何具体作者或作品。
-- 史诗感来自尺度、静默、象征和不可逆性，不来自大爆炸、密集战斗或堆砌奇幻元素。
+### 2. State one visual proposition
+
+Reduce the concept to one sentence, such as “the garment becomes the space it occupies” or “the two banks line a water-shaped rupture.” The proposition must arise from the source subject, action, and a form that is visibly present or directly evidenced by the source. Do not invent long shadows, roads, portals, discs, cracks, or folds merely because they are convenient metaphors.
+
+Choose one dominant mechanism and, at most, one supporting mechanism:
+
+- incompatible viewpoints;
+- extreme near/far or large/small scale;
+- subject becoming landscape or architecture;
+- active negative-space cut;
+- repeated modules changing state;
+- meaningful crop or directional compression.
+
+Do not stack mechanisms merely to look experimental.
+
+### 3. Select references by function
+
+- First lock the proposition, then decide whether a bundled reference actually helps it.
+- Use the source image plus **zero or one primary style reference**. Add one secondary style/material reference only when a primary reference is already justified.
+- Keep the total image inputs at three whenever possible. When no primary reference fits, use no bundled references; zero is preferable to a misleading one.
+- Select references through `scene-routing.md`; never load every bundled image and never let a scene-category label dictate the composition.
+- Borrow relationships—scale, space, hierarchy, reduction, material—not nouns, coordinates, colors, or recognizable layouts.
+
+### 4. Generate a new composition
+
+Use the available image-generation or image-editing capability. Label every input image's role explicitly. Preserve the source anchor, but allow substantial recomposition elsewhere.
+
+The finished image should have:
+
+- one dominant silhouette or spatial proposition readable at thumbnail size;
+- an active field of light or dark negative space;
+- a small scale cue when it strengthens the idea;
+- two to four functional colors, not a default black-and-beige formula;
+- clean major contours with locally varied mineral, dry-pigment, or silkscreen texture; leave some large surfaces nearly untextured;
+- no visible text by default.
+
+### 5. Inspect and revise
+
+Inspect the actual output. If it fails a quality gate, revise only the highest-impact defect first. Typical priorities are: restore the concept, restore the source anchor, simplify the composition, repair anatomy, neutralize the palette, then reduce texture.
+
+Do not deliver malformed people, accidental object fusion, fake text, a generic portal, a uniformly yellow image, or an attractive illustration that lacks a specific spatial idea.
+
+## Output
+
+- Return the finished image first.
+- Briefly name the central spatial idea and what source relationship was preserved.
+- In pure visual mode, do not add an unsolicited story.
+- In narrative mode, place the short fictional story after the image; never render it inside the artwork unless the user explicitly requests visible typography.

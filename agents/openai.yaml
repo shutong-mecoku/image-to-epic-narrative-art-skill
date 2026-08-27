@@ -1,9 +1,9 @@
 interface:
-  display_name: "史诗寓言叙事绘画"
-  short_description: "把任意图片重构为极端尺度、克制色块与强视觉寓意的叙事绘画"
-  default_prompt: "Use $image-to-epic-narrative-art 将我上传的图片重构成史诗化、象征化的叙事绘画；如有故事，请把它转化为画面核心。"
+  display_name: "空间寓言插画"
+  short_description: "将照片重构为不可能透视、极端尺度与叙事感兼具的原创插画"
+  brand_color: "#0B1623"
+  default_prompt: "使用 $image-to-epic-narrative-art 以纯视觉模式将我上传的照片重构为空间寓言插画；只生成画面与简短构图说明。"
   icon_small: "./assets/icon.svg"
   icon_large: "./assets/icon.svg"
-  brand_color: "#07111F"
 policy:
   allow_implicit_invocation: true
