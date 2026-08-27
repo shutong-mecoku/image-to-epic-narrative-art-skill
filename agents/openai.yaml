@@ -1,0 +1,9 @@
+interface:
+  display_name: "史诗寓言叙事绘画"
+  short_description: "把任意图片重构为极端尺度、克制色块与强视觉寓意的叙事绘画"
+  default_prompt: "Use $image-to-epic-narrative-art 将我上传的图片重构成史诗化、象征化的叙事绘画；如有故事，请把它转化为画面核心。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#07111F"
+policy:
+  allow_implicit_invocation: true

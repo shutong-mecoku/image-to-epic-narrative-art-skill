@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Epic narrative art icon">
+  <rect width="400" height="400" rx="76" fill="#07111F"/>
+  <circle cx="246" cy="154" r="102" fill="#A92623"/>
+  <circle cx="246" cy="154" r="57" fill="#07111F"/>
+  <path d="M42 344 166 176l50 168Z" fill="#E9DEC5"/>
+  <path d="M62 329 255 132" fill="none" stroke="#B99243" stroke-width="12" stroke-linecap="round"/>
+  <path d="m255 132-40 10 29 29Z" fill="#B99243"/>
+  <circle cx="126" cy="274" r="11" fill="#07111F" stroke="#B99243" stroke-width="5"/>
+  <path d="M126 285v35m-20-17h40" stroke="#07111F" stroke-width="8" stroke-linecap="round"/>
+</svg>
