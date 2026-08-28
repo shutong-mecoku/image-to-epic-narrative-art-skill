@@ -22,6 +22,7 @@ COMPOSITION
 - viewpoint contradiction or scale relation
 - active negative space
 - small scale cue when justified
+- for a prominent person, one observable human-treatment decision: value-plane simplification, garment massing, gesture emphasis, or restrained proportional change
 - deliberate crop and hierarchy
 
 SOURCE INVARIANTS
@@ -30,6 +31,7 @@ SOURCE INVARIANTS
 
 STYLE, COLOR, MATERIAL
 - large graphic masses and degree of simplification
+- readable human treatment: identity cues retained; face, clothing, edges, and material translated to a compatible abstraction level; no photographic cutout and no rigid silhouette
 - two to four functional colors
 - clean ground; locally varied mineral or silkscreen texture
 
@@ -49,7 +51,7 @@ AVOID
 
 ## Recomposition strength
 
-- For a single person, keep pose and bodily relationship prominent; transform the surrounding space or an organically connected element.
+- For a single person, keep pose and bodily relationship prominent; transform the surrounding space or an organically connected element. When the space is substantially flattened or reconstructed, also specify a visible treatment for the figure itself—such as fewer facial value planes, broader garment masses, or selective emphasis of the active hand, limb, or silhouette. Palette matching and surface grain alone do not count as figure transformation.
 - For a group, simplify individuals while retaining the action hierarchy.
 - For landscape and architecture, preserve relationships while allowing substantial camera and spatial reconstruction.
 - For an object, maintain functional contact points so the result remains more than an arbitrary giant object.
