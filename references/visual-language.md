@@ -30,6 +30,8 @@ Compress the source into a few large masses and a small number of supporting det
 
 Graphic reduction does not mean turning organic people into hard geometry. Human pose, weight, gaze, and bodily rhythm usually matter more than perfectly straight edges.
 
+When the surrounding space is strongly reconstructed, a prominent person must not remain a photographic cutout with only shared color or grain. Let the person participate visibly in the same abstraction level: group the face into a few readable value planes, merge minor clothing folds into broad masses, and, when the gesture supports it, use a restrained change of proportion or contour to strengthen the action. The change should read at thumbnail size while identity, anatomy, contact points, and emotional rhythm remain coherent.
+
 When a body or garment expands into surrounding space, keep an asymmetric organic transition and enough shoulder, elbow, hand, hem, or weight-bearing contour to read the person. Do not fuse two foreground figures into parallel hard panels that turn the center into a generic rectangular aperture.
 
 ### Controlled material
@@ -48,7 +50,7 @@ Do not cover the whole image with identical noise, scratches, yellowing, or fake
 
 ## Adaptive transformation strength
 
-- **Single person:** preserve pose and identity more strongly; let clothing, shadow, gesture, hair, or surrounding void grow into space.
+- **Single person:** preserve identity through diagnostic facial, hair, and clothing cues, and preserve pose, gaze, contact, weight, and bodily rhythm. These invariants do not require preserving photographic rendering. When the person is readable beyond icon scale, translate the face, clothing, folds, and highlights into a compatible—though not necessarily identical—level of graphic reduction. Restrained exaggeration of proportion or gesture, or an asymmetric garment-to-space transition, is allowed when it reinforces the bodily rhythm without breaking anatomy, balance, or identity.
 - **Group:** preserve who stands, sits, faces, follows, or opposes whom; simplify individual faces before losing the relationship.
 - **Landscape/architecture:** preserve landmark relationships but permit aggressive changes to viewpoint, scale, horizon, and path.
 - **Object/close-up:** preserve the silhouette and interaction; transform the object's functional logic into terrain, structure, or void.
