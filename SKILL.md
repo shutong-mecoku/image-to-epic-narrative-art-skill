@@ -67,13 +67,14 @@ The finished image should have:
 - one dominant silhouette or spatial proposition readable at thumbnail size;
 - an active field of light or dark negative space;
 - a small scale cue when it strengthens the idea;
+- foreground people visibly participate in the same abstraction system as the space through shape, value grouping, garment rhythm, or restrained proportional emphasis; matching only color and grain is not enough;
 - two to four functional colors, not a default black-and-beige formula;
 - clean major contours with locally varied mineral, dry-pigment, or silkscreen texture; leave some large surfaces nearly untextured;
 - no visible text by default.
 
 ### 5. Inspect and revise
 
-Inspect the actual output. If it fails a quality gate, revise only the highest-impact defect first. Typical priorities are: restore the concept, restore the source anchor, simplify the composition, repair anatomy, neutralize the palette, then reduce texture.
+Inspect the actual output. If it fails a quality gate, revise only the highest-impact defect first. Typical priorities are: restore the concept, restore the source anchor, integrate readable figures with the transformed abstraction, simplify the composition, repair anatomy, neutralize the palette, then reduce texture.
 
 Do not deliver malformed people, accidental object fusion, fake text, a generic portal, a uniformly yellow image, or an attractive illustration that lacks a specific spatial idea.
 
