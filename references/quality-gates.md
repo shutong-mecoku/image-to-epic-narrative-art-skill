@@ -10,10 +10,11 @@ Deliver only when the actual image passes the following checks.
 4. **Meaningful space:** negative space, scale, crop, or viewpoint actively carries the idea.
 5. **Graphic clarity:** a few large masses dominate; the image does not collapse into ordinary detailed illustration.
 6. **Adaptive humanity:** people retain coherent anatomy, pose, weight, gaze, and distinct hands; stylization does not make them rigid or fused.
-7. **Controlled palette:** two to four functional colors; no uncontrolled saturation, muddy yellow cast, or automatic sepia.
-8. **Material credibility:** texture is local, restrained, and subordinate to clean silhouettes; at least one large field remains quiet enough to contrast with it.
-9. **Originality:** the work does not reproduce the subject, layout, signature shape, or coordinates of a bundled reference.
-10. **Clean delivery:** no fake text, subtitle, score, UI, logo, or watermark unless explicitly requested.
+7. **Human integration:** a prominent person and the reconstructed space share a compatible abstraction level; a photographic-looking actor on a graphic field fails even when palette and texture match.
+8. **Controlled palette:** two to four functional colors; no uncontrolled saturation, muddy yellow cast, or automatic sepia.
+9. **Material credibility:** texture is local, restrained, and subordinate to clean silhouettes; at least one large field remains quiet enough to contrast with it.
+10. **Originality:** the work does not reproduce the subject, layout, signature shape, or coordinates of a bundled reference.
+11. **Clean delivery:** no fake text, subtitle, score, UI, logo, or watermark unless explicitly requested.
 
 ## Failure signatures and narrow fixes
 
@@ -21,6 +22,7 @@ Deliver only when the actual image passes the following checks.
 |---|---|---|
 | Pretty filter | original camera view with new colors and grain | rebuild the spatial relation around one metaphor |
 | Generic concept art | realistic environment, cinematic light, too many details | flatten major masses and remove literal background information |
+| Photographic cutout | space is graphic or impossible, but the main person keeps realistic facial shading, small clothing folds, and camera-like volume | simplify the figure's value structure and garment masses; emphasize one source-supported gesture or contour while preserving identity and anatomy |
 | Over-geometric | people become rigid blocks; pose and emotion disappear | restore organic silhouette and source gesture before changing space |
 | Human frame | enlarged figures merge into straight side panels and create a rectangular opening | restore asymmetric shoulders, elbows, hands, hems, and a non-rectilinear transition |
 | Template reuse | portal, black road, folded rectangle, circle, or S-river appears without source logic | replace the governing shape with one derived from the source action |
